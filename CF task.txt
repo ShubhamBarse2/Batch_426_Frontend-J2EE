@@ -1,0 +1,61 @@
+
+Practise Session : 
+
+1> Problem Statement:
+
+You are building a system for an institute.
+
+You have a list of student names (ArrayList<String>)
+Perform following operations:
+ Tasks:
+Remove duplicate names
+Sort names alphabetically
+Find names starting with a vowel
+Count frequency of each name
+Find the longest name
+Convert all names to uppercase
+
+2> Problem Statement:
+
+You are managing products in an e-commerce system.
+
+Each product has:
+
+name
+price
+
+Store products using ArrayList
+Tasks:
+Add multiple products
+Find product with highest price
+Sort products by price (ascending & descending)
+Filter products with price > 500
+Search product by name
+Remove duplicate product names
+
+
+3> Email Management System
+ Problem:
+
+You have a list of emails.
+
+Tasks:
+Remove duplicate emails
+Validate emails (must contain @ and .)
+Group emails by domain (gmail, yahoo, etc.)
+Count how many users per domain
+Sort emails by domain name
+
+
+4> 
+Chat Message Analyzer
+Problem:
+
+Messages stored in List<String>
+
+Tasks:
+Count total words
+Find most used word
+Filter messages containing specific keyword
+Sort messages by length
+Remove messages shorter than 3 words

@@ -1,0 +1,33 @@
+html & css interview Questions : 
+
+
+What is HTML?
+What are HTML tags and attributes?
+Difference between <div> and <span>?
+What is the purpose of <!DOCTYPE html>?
+What are semantic tags? Give examples.
+Difference between HTML4 and HTML5?
+What is the use of <meta> tag?
+What are inline and block elements?
+Difference between <b> and <strong>?
+What is the difference between <i> and <em>?
+What is the difference between id and class?
+What are forms in HTML? Explain input types.
+What is the use of placeholder attribute?
+Difference between GET and POST method?
+What is localStorage and sessionStorage?
+What are multimedia tags in HTML5?
+What is iframe?
+What is the difference between <section> and <article>?
+What is accessibility in HTML?
+What is the alt attribute in images?
+What is CSS?
+What are different types of CSS? (Inline, Internal, External)
+What is selector in CSS?
+Difference between class and id selector?
+What is box model?
+What is margin vs padding?
+What is display property?
+Difference between block, inline, and inline-block?
+What is position property?
+What is float and clear?

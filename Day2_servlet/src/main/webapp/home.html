@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Home</title>
+
+<style>
+body {
+	margin: 0;
+	height: 100vh;
+	font-family: Arial, sans-serif;
+	/* Background Image */
+	background:
+		url('https://images.unsplash.com/photo-1508780709619-79562169bc64')
+		no-repeat center center/cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	text-align: center;
+	background: rgba(0, 0, 0, 0.6);
+	padding: 40px;
+	border-radius: 10px;
+	color: white;
+}
+
+h1 {
+	margin-bottom: 25px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 12px 25px;
+	margin: 10px;
+	font-size: 16px;
+	text-decoration: none;
+	border-radius: 5px;
+	color: white;
+	transition: 0.3s;
+}
+
+.login-btn {
+	background-color: #28a745;
+}
+
+.register-btn {
+	background-color: #007bff;
+}
+
+.btn:hover {
+	opacity: 0.8;
+}
+</style>
+</head>
+<body>
+
+	<div class="container">
+		<h1>Welcome</h1>
+
+		<a href="Login.html" class="btn login-btn">Login</a> <a
+			href="register.html" class="btn register-btn">Register</a>
+	</div>
+
+</body>
+</html>

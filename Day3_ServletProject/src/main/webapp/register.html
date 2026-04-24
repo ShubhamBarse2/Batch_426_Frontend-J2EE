@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Student Registration</title>
+<style>
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+
+.container {
+	width: 400px;
+	margin: 50px auto;
+	background: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	text-align: center;
+}
+
+label {
+	font-weight: bold;
+}
+
+input {
+	width: 100%;
+	padding: 8px;
+	margin: 8px 0 15px 0;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+button {
+	width: 100%;
+	padding: 10px;
+	background-color: #28a745;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+button:hover {
+	background-color: #218838;
+}
+</style>
+</head>
+<body>
+
+	<div class="container">
+		<h2>Student Registration</h2>
+		<form action="submit" method="post">
+
+			<label>Student ID</label> <input type="text" name="id" required>
+
+			<label>Name</label> <input type="text" name="name" required>
+
+			<label>City</label> <input type="text" name="city" required>
+
+			<label>Mobile Number</label> <input type="tel" name="mobile" required>
+
+			<label>Email</label> <input type="email" name="email" required>
+
+			<label>Password</label> <input type="password" name="password"
+				required>
+
+			<button type="submit">Register</button>
+
+		</form>
+	</div>
+
+</body>
+</html>

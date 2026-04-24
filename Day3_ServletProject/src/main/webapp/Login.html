@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+
+<style>
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	height: 100vh;
+	/* Background */
+	background: linear-gradient(to right, #4facfe, #00f2fe);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-box {
+	background: white;
+	padding: 30px;
+	border-radius: 10px;
+	width: 300px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+h2 {
+	margin-bottom: 20px;
+	color: #333;
+}
+
+label {
+	display: block;
+	text-align: left;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #555;
+}
+
+input {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+}
+
+input:focus {
+	border-color: #4facfe;
+	outline: none;
+}
+
+button {
+	width: 100%;
+	padding: 10px;
+	background: #4facfe;
+	border: none;
+	color: white;
+	font-size: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+button:hover {
+	background: #007bff;
+}
+</style>
+
+</head>
+<body>
+
+	<div class="login-box">
+		<h2>Login API</h2>
+
+		<form action="login" method="get">
+			<label for="username">Username:</label> <input type="text"
+				id="username" name="username" required> <label
+				for="password">Password:</label> <input type="password"
+				id="password" name="password" required>
+
+			<button type="submit">Login</button>
+		</form>
+	</div>
+
+</body>
+</html>

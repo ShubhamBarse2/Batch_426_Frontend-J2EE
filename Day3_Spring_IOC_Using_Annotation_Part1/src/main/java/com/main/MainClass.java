@@ -1,0 +1,25 @@
+package com.main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.config.MyConfig;
+import com.jbk.Student;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+
+		ApplicationContext context = new AnnotationConfigApplicationContext(MyConfig.class);
+		Student s = context.getBean("std", Student.class);
+		System.out.println(s);
+		
+		
+//	Student s1 = context.getBean(Student.class);
+
+//		System.out.println(s == s1);
+//		System.out.println(s.hashCode());
+//		System.out.println(s1.hashCode());
+
+	}
+}
